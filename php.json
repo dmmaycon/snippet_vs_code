@@ -1,0 +1,21 @@
+{
+	/*
+	/// Cria um arquivo PHP com um a classe iniciaç
+	/// Autor: Maycon de Moraes
+	*/
+	"novaClasse" : {
+		"prefix": "novaClasse",
+		"body": [
+			"/*",
+			"/// Classe - ",
+			"/// Author: Maycon de Moraes",
+			"/// Date: DD/MM/YYYY",
+			"*/",
+			"",
+			"class nameClass{",
+			"",
+			"}"
+		],
+		"description": "nova-classe-php"
+	}
+}

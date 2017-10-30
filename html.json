@@ -1,0 +1,39 @@
+{
+	// Cria uma página com as tags padrão do HTML e já chama por padrão 
+	// Boostrap e Jquery além do Jquery Mask
+	// Autor: Maycon de Moraes
+	// Data: 20/10/2017
+	"starthtml" : {
+		"prefix": "starthtml",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"    <head>",
+			"       <tittle>Titulo</title>",
+			"       <link rel='stylesheet' href='../css/bootstrap.min.css'>",
+			"    </head>",
+			"    <body>",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"      <script src='../js/jquery-3.2.1.min.js'></script>",
+			"      <script src='../js/jquery.mask.min.js'></script>",
+			"      <script src='../js/bootstrap.min.js'></script>",
+			"   </body>",
+			"</html>"
+		],
+		"description": "cria-tags-html-basicas"
+	}
+
+
+	
+
+	
+
+
+
+
+
+}

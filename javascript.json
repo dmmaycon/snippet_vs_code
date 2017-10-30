@@ -1,0 +1,60 @@
+{
+	/*
+	/// Criar um simples get com jquery
+	/// Autor: Maycon de Moraes
+	/// Data: 20/10/17
+	*/
+	"jGet" : {
+		"prefix": "jGet",
+		"body": [
+			"let url = '' ",
+			"$.get(url, function(data){",
+			"      let result = JSON.parse(data);",
+			"      console.table(result);",
+			"});"
+		],
+		"description": "jQuery-post"
+	},
+
+	/*
+	/// Criar um simples Post com jquery
+	/// Autor: Maycon de Moraes
+	/// Data: 20/10/17
+	*/
+	"jPost" : {
+		"prefix": "jPost",
+		"body": [
+			"let url = '' ",
+			"$.post(url,",
+			"{",
+			"   par1: 'result1',",
+			"   par2: 'result2',",
+			"},",
+			"function(data){",
+			"   let result = JSON.parse(data);",
+			"   console.table(result);",
+			"});"
+
+		],
+		"description": "jQuery-post"
+	},
+
+	/*
+	/// Cria uma função onload com jquery
+	/// Autor: Maycon de Moraes
+	/// Data: 20/10/17
+	*/
+	"jOnLoad" : {
+		"prefix": "jOnLoad",
+		"body": [
+			"$(document).ready(function(){",
+			"    //TODO",
+			" });"
+
+		],
+		"description": "jQuery-On-Load-Page"
+	}
+
+
+}
+
