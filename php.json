@@ -16,7 +16,7 @@
 			"",
 			"// namespace ",
 			"",
-			"// use Namespace",
+			"// use namespace",
 			"",
 			"class $TM_FILENAME_BASE",
 			"{",
