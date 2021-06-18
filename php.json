@@ -3,19 +3,26 @@
 	/// Cria um arquivo PHP com um a classe iniciaç
 	/// Autor: Maycon de Moraes
 	*/
-	"novaClasse" : {
-		"prefix": "novaClasse",
+	"phpClass" : {
+		"prefix": "phpClass",
 		"body": [
 			"/*",
-			"/// Classe - ",
-			"/// Author: Maycon de Moraes",
-			"/// Date: DD/MM/YYYY",
+			"*** Class - ",
+			"*** Author: Maycon de Moraes",
+			"*** Email: mayconmoraes.dm@gmail.com",
+			"*** Date: CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR",
+			"*** Description:  ",
 			"*/",
 			"",
-			"class nameClass{",
+			"// namespace ",
+			"",
+			"// use Namespace",
+			"",
+			"class YourClass",
+			"{",
 			"",
 			"}"
 		],
-		"description": "nova-classe-php"
+		"description": "phpClass"
 	}
 }
