@@ -7,10 +7,10 @@
 		"prefix": "phpClass",
 		"body": [
 			"/*",
-			"*** Class - ",
+			"*** Class - $TM_FILENAME_BASE",
 			"*** Author: Maycon de Moraes",
 			"*** Email: mayconmoraes.dm@gmail.com",
-			"*** Date: CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR",
+			"*** Date: $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR",
 			"*** Description:  ",
 			"*/",
 			"",
@@ -18,7 +18,7 @@
 			"",
 			"// use Namespace",
 			"",
-			"class YourClass",
+			"class $TM_FILENAME_BASE",
 			"{",
 			"",
 			"}"
